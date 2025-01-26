@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="https://httpbin/post">
+            <fieldset>
+            <h2>feedback</h2>
+            <label for="firstName">firstname:</label>
+            <input type="text" name="firstName" id="firstName" required placeholder="firstName">
+            <p>
+            <label for="lastName">laseName:</label>
+            <input type="text" name="lastName" id="lastName" required placeholder="lastName">
+        </p>
+        <p>
+            <label for="password">password:</label>
+            <input type="password" name="password" id="password" required placeholder="password">
+        </p>
+        <p>
+            <label for="phone">phone:</label>
+            <input type="tel" name="phone" id="phone" required placeholder="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+        </p>
+        <p>
+            <label for="male">male:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female:</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </p>
+        <p>
+            <label for="items">fruits liked</label>
+            <select name="fruitsitem" id="fruits">
+                <optgroup label="fruits">
+                <option value="apple">apple</option>
+                <option value="orange">orange</option>
+                <option value="banana">banana</option>
+                <option value="strawberry" selected>strawberry</option>
+            </optgroup>
+            <optgroup label="vegens">
+                <option value="carrot">carrot</option>
+                <option value="beetroot">beetroot</option>
+                
+            </optgroup>
+            </select>
+
+        </p>
+        <p>
+            <textarea name="feedback" id="feedback" required rows="10" cols="40" placeholder="feedback here"></textarea>
+        </p>
+        
+
+        </fieldset>
+
+
+        </form>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 34px;
+}
+
+body{
+    border: 2px solid black;
+    margin: auto ;
+    margin-top:4rem;
+    width: 35%;
+    gap: 4rem;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+ul li{
+    list-style-type: none;
+    font-style: italic;
+    
+}

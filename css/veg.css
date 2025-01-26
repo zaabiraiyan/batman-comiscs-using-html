@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+
+}
+
+body{
+    background-color: bisque;
+    
+}
+main{
+    margin: 2rem;
+    text-align: justify;
+}
+
+header h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: auto;
+}
+
+header{
+    display: flex;
+    flex-flow: column nowrap;
+}
+nav li{
+    text-align: center;
+    margin: 0.5rem;
+    list-style-type: none;
+}
+
+
+
+nav a{
+    text-decoration: none;
+}
+
+
+table,th,tr,td,caption{
+    border: 2px solid black;
+    padding: 2rem;
+    border-collapse: collapse;
+}
